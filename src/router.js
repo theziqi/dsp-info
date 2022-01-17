@@ -22,6 +22,8 @@ import Plan from "./components/Plan";
 import Teacher from "./components/Teacher";
 import Video from "./components/Video";
 import Read from "./components/Read";
+import Paper from "./components/Paper";
+
 //定义routes路由的集合，数组类型
 const routes = [
   //单个路由均为对象类型，path代表的是路径，component代表组件
@@ -31,7 +33,7 @@ const routes = [
   { path: "/courseware", name: "courseware", component: Courseware },
   { path: "/introduction", name: "introduction", component: Introduction },
   { path: "/outline", name: "outline", component: Outline },
-  { path: "/practice", name: "practice", component: Practice },
+  { path: "/practice/:part", name: "practice", component: Practice },
   { path: "/resource", name: "resource", component: Resource },
   { path: "/teachers", name: "teachers", component: Teachers },
   { path: "/testpaper", name: "testpaper", component: Testpaper },
@@ -43,6 +45,7 @@ const routes = [
   { path: "/teacher/:name", name: "teacher", component: Teacher },
   { path: "/video/:vid", name: "video", component: Video },
   { path: "/read/:rid", name: "read", component: Read },
+  { path: "/paper", name: "paper", component: Paper },
 ];
 
 //实例化VueRouter并将routes添加进去

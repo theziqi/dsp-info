@@ -29,15 +29,25 @@ export default {
       vSrc: "",
       videoList: [
         {
+          vid: "gaosi",
+          vSrc: "DSP_picture/video/高斯.mp4",
+          vTitle: "高斯",
+        },
+        {
+          vid: "fuliye",
+          vSrc: "DSP_picture/video/傅里叶.mp4",
+          vTitle: "傅里叶",
+        },
+        {
           vid: "shuoke",
           vSrc: "DSP_picture/video/数字信号处理说课-苏菲.mp4",
           vTitle: "数字信号处理说课-苏菲",
         },
-        {
-          vid: "shouke",
-          vSrc: "DSP_picture/video/授课录像_门爱东_2021.mp4",
-          vTitle: "授课录像_门爱东_2021",
-        },
+        // {
+        //   vid: "shouke",
+        //   vSrc: "DSP_picture/video/授课录像_门爱东_2021.mp4",
+        //   vTitle: "授课录像_门爱东_2021",
+        // },
         {
           vid: "chapter3-5",
           vSrc: "DSP_picture/video/第三章-DIT-FFT.mp4",
@@ -178,6 +188,9 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px #c9cce2e8 solid;
 }
 .v {
   display: inline-block;

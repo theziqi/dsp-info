@@ -57,6 +57,174 @@ export default {
       rDownloadName: "",
       readList: [
         {
+          rid: "An_Introduction_to_the_Kalman_Filter",
+          rSrc:
+            "../../download/paper/basic/An_Introduction_to_the_Kalman_Filter.pdf",
+          rTitle: "An_Introduction_to_the_Kalman_Filter.pdf",
+        },
+        {
+          rid: "Certain_Topics_in_Telegraph_Transmission_Theory",
+          rSrc:
+            "../../download/paper/basic/Certain_Topics_in_Telegraph_Transmission_Theory.pdf",
+          rTitle: "Certain_Topics_in_Telegraph_Transmission_Theory.pdf",
+        },
+        {
+          rid: "Interpolated_finite_impulse_response_filters",
+          rSrc:
+            "../../download/paper/basic/Interpolated_finite_impulse_response_filters.pdf",
+          rTitle: "Interpolated_finite_impulse_response_filters.pdf",
+        },
+        {
+          rid: "On_optimal_infinite_impulse_response_edge_detection_filters",
+          rSrc:
+            "../../download/paper/basic/On_optimal_infinite_impulse_response_edge_detection_filters.pdf",
+          rTitle:
+            "On_optimal_infinite_impulse_response_edge_detection_filters.pdf",
+        },
+        {
+          rid: "The_Fast_Fourier_Transform_and_Its_Applications",
+          rSrc:
+            "../../download/paper/basic/The_Fast_Fourier_Transform_and_Its_Applications.pdf",
+          rTitle: "The_Fast_Fourier_Transform_and_Its_Applications.pdf",
+        },
+        {
+          rid: "5G移动通信发展趋势与若干关键技术",
+          rSrc:
+            "../../download/paper/frontier/5G移动通信发展趋势与若干关键技术.pdf",
+          rTitle: "5G移动通信发展趋势与若干关键技术.pdf",
+        },
+        {
+          rid: "DSP技术的最新发展及其应用现状_魏晓云",
+          rSrc:
+            "../../download/paper/frontier/DSP技术的最新发展及其应用现状_魏晓云.pdf",
+          rTitle: "DSP技术的最新发展及其应用现状_魏晓云.pdf",
+        },
+        {
+          rid: "北斗卫星导航系统的进展、贡献与挑战",
+          rSrc:
+            "../../download/paper/frontier/北斗卫星导航系统的进展、贡献与挑战.pdf",
+          rTitle: "北斗卫星导航系统的进展、贡献与挑战.pdf",
+        },
+        {
+          rid: "基于DSP和FPGA的通用数字信号处理系统设计_彭宇",
+          rSrc:
+            "../../download/paper/frontier/基于DSP和FPGA的通用数字信号处理系统设计_彭宇.pdf",
+          rTitle: "基于DSP和FPGA的通用数字信号处理系统设计_彭宇.pdf",
+        },
+        {
+          rid: "卷积神经网络研究综述",
+          rSrc: "../../download/paper/frontier/卷积神经网络研究综述.pdf",
+          rTitle: "卷积神经网络研究综述.pdf",
+        },
+        {
+          rid: "频率步进雷达数字信号处理_毛二可",
+          rSrc:
+            "../../download/paper/frontier/频率步进雷达数字信号处理_毛二可.pdf",
+          rTitle: "频率步进雷达数字信号处理_毛二可.pdf",
+        },
+        {
+          rid:
+            "AlexNet_ImageNet_Classification_with_Deep_Convolutional_Neural_Networks",
+          rSrc:
+            "../../download/paper/frontier/AlexNet_ImageNet_Classification_with_Deep_Convolutional_Neural_Networks.pdf",
+          rTitle:
+            "AlexNet_ImageNet_Classification_with_Deep_Convolutional_Neural_Networks.pdf",
+        },
+        {
+          rid:
+            "Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region_Proposal_Networks",
+          rSrc:
+            "../../download/paper/frontier/Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region_Proposal_Networks.pdf",
+          rTitle:
+            "Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region_Proposal_Networks.pdf",
+        },
+        {
+          rid: "GoogLENet_Going_Deeper_with_Convolutions",
+          rSrc:
+            "../../download/paper/frontier/GoogLENet_Going_Deeper_with_Convolutions.pdf",
+          rTitle: "GoogLENet_Going_Deeper_with_Convolutions.pdf",
+        },
+        {
+          rid:
+            "Inception_v2_Batch_Normalization_Accelerating_Deep_Network_Training_by_Reducing_Internal_Covariate_Shift",
+          rSrc:
+            "../../download/paper/frontier/Inception_v2_Batch_Normalization_Accelerating_Deep_Network_Training_by_Reducing_Internal_Covariate_Shift.pdf",
+          rTitle:
+            "Inception_v2_Batch_Normalization_Accelerating_Deep_Network_Training_by_Reducing_Internal_Covariate_Shift.pdf",
+        },
+        {
+          rid:
+            "Inception_v3_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+          rSrc:
+            "../../download/paper/frontier/Inception_v3_Rethinking_the_Inception_Architecture_for_Computer_Vision.pdf",
+          rTitle:
+            "Inception_v3_Rethinking_the_Inception_Architecture_for_Computer_Vision.pdf",
+        },
+        {
+          rid: "ResNet_Deep_Residual_Learning_for_Image_Recognition",
+          rSrc:
+            "../../download/paper/frontier/ResNet_Deep_Residual_Learning_for_Image_Recognition.pdf",
+          rTitle: "ResNet_Deep_Residual_Learning_for_Image_Recognition.pdf",
+        },
+        {
+          rid: "U-Net_Convolutional_Networks_for_Biomedical_Image_Segmentation",
+          rSrc:
+            "../../download/paper/frontier/U-Net_Convolutional_Networks_for_Biomedical_Image_Segmentation.pdf",
+          rTitle:
+            "U-Net_Convolutional_Networks_for_Biomedical_Image_Segmentation.pdf",
+        },
+        {
+          rid:
+            "VGG_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recognition",
+          rSrc:
+            "../../download/paper/frontier/VGG_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recognition.pdf",
+          rTitle:
+            "VGG_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recognition.pdf",
+        },
+        {
+          rid: "YOLOv1_You_Only_Look_Once_Unified_Real-Time_Object_Detection",
+          rSrc:
+            "../../download/paper/frontier/YOLOv1_You_Only_Look_Once_Unified_Real-Time_Object_Detection.pdf",
+          rTitle:
+            "YOLOv1_You_Only_Look_Once_Unified_Real-Time_Object_Detection.pdf",
+        },
+        {
+          rid: "YOLOv2_YOLO9000_Better_Faster_Stronger",
+          rSrc:
+            "../../download/paper/frontier/YOLOv2_YOLO9000_Better_Faster_Stronger.pdf",
+          rTitle: "YOLOv2_YOLO9000_Better_Faster_Stronger.pdf",
+        },
+        {
+          rid: "YOLOv3_An_Incremental_Improvement",
+          rSrc:
+            "../../download/paper/frontier/YOLOv3_An_Incremental_Improvement.pdf",
+          rTitle: "YOLOv3_An_Incremental_Improvement.pdf",
+        },
+        {
+          rid: "YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
+          rSrc:
+            "../../download/paper/frontier/YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection.pdf",
+          rTitle: "YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection.pdf",
+        },
+        {
+          rid: "压缩感知-Compressed_sensing",
+          rSrc: "../../download/paper/frontier/压缩感知-Compressed_sensing.pdf",
+          rTitle: "压缩感知-Compressed_sensing.pdf",
+        },
+        {
+          rid:
+            "压缩感知-Robust_uncertainty_principles_exact_signal_reconstruction_from_highly_incomplete_frequency_information",
+          rSrc:
+            "../../download/paper/frontier/压缩感知-Robust_uncertainty_principles_exact_signal_reconstruction_from_highly_incomplete_frequency_information.pdf",
+          rTitle:
+            "压缩感知-Robust_uncertainty_principles_exact_signal_reconstruction_from_highly_incomplete_frequency_information.pdf",
+        },
+        {
+          rid: "yongbuxiaoshidedianbo",
+          rSrc: "../../download/practice/永不消逝的电波.pdf",
+          rTitle: "永不消逝的电波.pdf",
+        },
+        {
           rid: "c-matlab",
           rSrc: "../../download/courseware/matlab.pdf",
           rTitle: "Matlab简介.pdf",
@@ -261,11 +429,18 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px #c9cce2e8 solid;
 }
 .i-title {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
+  width: 820px;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: normal;
 }
 .r-top-block {
   width: 100%;

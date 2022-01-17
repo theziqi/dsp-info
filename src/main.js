@@ -14,6 +14,15 @@ import "vue-video-player/src/custom-theme.css";
 import "video.js/dist/video-js.css";
 Vue.use(VideoPlayer);
 
+// import particles from "particles.js";
+// Vue.use(particles);
+
+import VueParticles from "vue-particles";
+Vue.use(VueParticles);
+
+import audio from "vue-mobile-audio";
+Vue.use(audio);
+
 Vue.config.productionTip = false;
 
 new Vue({

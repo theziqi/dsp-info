@@ -39,7 +39,9 @@ export default {
 
 <style lang="less" scoped>
 #courseware {
-  margin-left: 200px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px #c9cce2e8 solid;
 }
 p {
   font-size: 20px;
